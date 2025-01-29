@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    @apply bg-gradient-to-br from-green-50 to-emerald-100 min-h-screen;
+  }
+}
+
+.notify-button {
+  @apply bg-primary text-white px-6 py-3 rounded-full font-semibold 
+         transition-all duration-300 hover:scale-105 hover:shadow-lg 
+         active:scale-95;
+}
+
+.store-badge {
+  @apply opacity-75 hover:opacity-100 transition-opacity duration-300
+         cursor-pointer transform hover:scale-105;
+}
+
+.floating-shape {
+  @apply absolute opacity-10 pointer-events-none animate-float;
+}

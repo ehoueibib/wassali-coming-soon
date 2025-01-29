@@ -1,0 +1,14 @@
+{
+  "tagline": "Vos courses, livrées fraîches et rapides. Bientôt disponible !",
+  "notify": {
+    "placeholder": "Entrez votre adresse e-mail",
+    "button": "Me notifier",
+    "privacy": "Pas de spam. Désabonnez-vous à tout moment."
+  },
+  "countdown": {
+    "days": "jours",
+    "hours": "heures",
+    "minutes": "minutes",
+    "seconds": "secondes"
+  }
+}

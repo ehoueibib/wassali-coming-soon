@@ -1,0 +1,14 @@
+{
+  "tagline": "Your groceries, delivered fresh & fast. Coming soon!",
+  "notify": {
+    "placeholder": "Enter your email address",
+    "button": "Notify Me",
+    "privacy": "We'll never spam you. Unsubscribe anytime."
+  },
+  "countdown": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
+  }
+}
